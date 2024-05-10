@@ -3,7 +3,7 @@
 }
 
 .navbar {
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .navbar-sticky {
@@ -12,11 +12,15 @@
 }
 
 .header {
-  background: url('../images/header-background.jpg') center center no-repeat;
+  background: url("../images/header-background.jpg") center center no-repeat;
   background-size: cover;
 }
- 
-@media(max-width:1000px) {
+
+.modal-dialog {
+  max-width: 1040px;
+}
+
+@media (max-width: 1000px) {
   .hero .image-container {
     display: flex;
     justify-content: center;
